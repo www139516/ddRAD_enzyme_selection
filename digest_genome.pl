@@ -34,7 +34,7 @@ my $gff_path = "/home/wangyc/maizeGenome/v3/v3.gff3";
 # bug: SbfI === PstI Illegal division by zero at /home/wangyc/anaconda3/envs/RestrictionDigest/lib/site_perl/5.26.2/RestrictionDigest.pm line 2966, <GEN19> line 34465177.
 # bug: EcoRI === MlucI 
 
-my $enzyme_list = "PstI EcoRI HindIII DraI PvuII AfaI NlaIII MspI SbfI EcoRI"; 
+my $enzyme_list = "PstI EcoRI HindIII PvuII NlaIII MspI SbfI EcoRI AvaII MspI";
 
 my @enzyme_list = split (/ +/, $enzyme_list);
 
